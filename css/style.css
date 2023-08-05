@@ -70,15 +70,7 @@ img {
 
 }
 
-.header-foto {
-    display: flex;
-    width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 204px;
-    padding-right: 0px;
 
-}
 
 .nav {
     display: flex;
@@ -94,7 +86,10 @@ img {
 
 .menu-item {}
 
-.link {}
+.link:hover,
+.link:focus {
+    color: #94cfff;
+}
 
 
 
@@ -107,18 +102,19 @@ img {
 
 .header-button {
     position: absolute;
-    right: -300px;
-    bottom: 20px;
+    right: -350px;
+    top: 50px;
 
     padding: 9px 38px 7.6px;
 
-    color: #26C7EA;
+    color: #26C6EA;
     border-radius: 45px 0px;
-    border: 3px solid #26C7EA;
-    background: #0B0E66;
+    border: 3px solid #26c7ea;
+    background: #0b0e66;
     text-align: justify;
     font-family: "HeadlandOne", sans-serif;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .header-button:hover,
