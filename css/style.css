@@ -74,8 +74,10 @@ img {
     background-repeat: no-repeat;
     width: 186px;
     height: 72px;
-    margin-left: 300px;
+    margin-top: 39px;
+
     padding-top: 39px;
+    padding-bottom: 39px;
 
 
 }
@@ -112,7 +114,7 @@ img {
 
 .header-button {
     position: absolute;
-    right: -350px;
+    right: 50px;
     top: 50px;
 
     padding: 9px 38px 7.6px;
@@ -170,6 +172,13 @@ img {
 }
 
 .hero-button {
+    margin-top: 42px;
+    width: 260px;
+    height: 80px;
+    padding: 10px 31px;
+    border-radius: 45px 0px;
+    border: 3px solid #26C7EA;
+    background-color: #0b0e66;
     color: #26c7ea;
     text-align: center;
     font-family: "HeadlandOne", sans-serif;
@@ -244,7 +253,34 @@ img {
 }
 
 /* Вчимо мову */
+
+
 .dictionary {}
+
+
+.foto-dictionory {
+    background-image: url(../img/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+
+.foto-dictionory-two {
+    background-image: url(../img/Rectangle\ 20.png);
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 704px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+
+
+}
 
 .dictionary-tile {
     color: #141414;
@@ -253,7 +289,7 @@ img {
     font-size: 32px;
 }
 
-.dictionary-list {}
+
 
 .dictionary-item {}
 
