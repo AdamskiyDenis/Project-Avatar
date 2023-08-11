@@ -49,10 +49,19 @@ img {
 
 /* Хедер */
 .header {
-    position: absolute;
+    background-image: linear-gradient(rgba(43, 74, 97, 0.87),
+            rgba(43, 74, 97, 0.87)), url(../img/Rectangle\ 104.png);
+    position: fixed;
+    height: 150px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 50;
+    border-bottom: 3px solid #fff;
 
-    margin-left: auto;
-    margin-right: auto;
+
+
 }
 
 
@@ -67,6 +76,7 @@ img {
     height: 72px;
     margin-left: 300px;
     padding-top: 39px;
+
 
 }
 
@@ -132,14 +142,18 @@ img {
 /* Герой */
 .hero {
     background-image: url(../img/Group\ 48\ 1\ \(1\).jpg);
-    max-width: 1440px;
-    height: 740px;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-
-    padding-top: 185px;
-    padding-bottom: 185px;
+    max-width: 1440px;
+    height: 740px;
+    padding: 300px 0;
     background-repeat: no-repeat;
+    background-color: bisque;
+    background-size: cover;
+    background-position: center bottom -150px;
+    object-fit: cover;
+
 
 
 }
@@ -169,6 +183,7 @@ img {
     color: #0a3853;
     text-align: justify;
     font-size: 36px;
+    padding-top: 75px;
 }
 
 .foresight-tex {
@@ -177,12 +192,55 @@ img {
     font-size: 24px;
 }
 
+
+
 /* трейлер */
+
+.foto-trailler {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 120px;
+
+
+}
+
+.trailer-foto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foresight-title-two {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 75px;
+    width: 886px;
+}
+
+
+
+
+
+
+
+
+
+
+
 .button-traile {
     color: #26c7ea;
     text-align: justify;
     font-family: "HeadlandOne", sans-serif;
     font-size: 24px;
+    color: #26C7EA;
+    text-align: justify;
+    font-family: HeadlandOne;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
 }
 
 /* Вчимо мову */
