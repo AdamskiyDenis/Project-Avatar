@@ -216,8 +216,13 @@ img {
 
 
 .triiler {
-
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
     background-image: url(../img/Rectangle\ 10.png);
+    width: 1440px;
+    height: 741px;
+    flex-shrink: 0;
 }
 
 
@@ -240,6 +245,26 @@ img {
 
 
 
+
+.triiler-button {
+    width: 260px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 45px 0px;
+    border: 3px solid #26C7EA;
+    background: #0B0E66;
+    color: #26C7EA;
+    text-align: justify;
+    font-family: HeadlandOne;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+
+
+}
 
 
 
