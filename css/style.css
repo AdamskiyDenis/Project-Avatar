@@ -190,7 +190,7 @@ img {
 
 .foresight-title {
     color: #0a3853;
-    text-align: justify;
+    text-align: center;
     font-size: 36px;
     padding-top: 75px;
 }
@@ -213,6 +213,13 @@ img {
 
 
 }
+
+
+.triiler {
+
+    background-image: url(../img/Rectangle\ 10.png);
+}
+
 
 .trailer-foto {
     margin-left: auto;
@@ -257,7 +264,9 @@ img {
 
 .dictionary {}
 
-f .foto-dictionory {
+
+
+.foto-dictionory {
     background-image: url(../img/Rectangle\ 8.png);
     background-repeat: no-repeat;
     margin-left: auto;
