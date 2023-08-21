@@ -186,7 +186,16 @@ img {
 }
 
 /* Передбачення */
-.foresight {}
+.foresight {
+    color: #0a3853;
+    text-align: center;
+    font-size: 36px;
+    padding-top: 75px;
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+
+}
 
 .foresight-title {
     color: #0a3853;
@@ -242,7 +251,7 @@ img {
     padding-top: 75px;
     width: 886px;
 
-    v
+
 }
 
 
