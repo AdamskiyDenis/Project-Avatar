@@ -241,6 +241,7 @@ img {
 
 
 .trailer-foto {
+
     margin-left: auto;
     margin-right: auto;
 }
@@ -301,6 +302,9 @@ img {
 
 }
 
+
+
+
 /* Вчимо мову */
 
 
@@ -313,23 +317,13 @@ img {
     background-repeat: no-repeat;
     margin-left: auto;
     margin-right: auto;
-
-
-
 }
 
 .foto-dictionory-two {
-    background-image: url(../img/Rectangle\ 20.png);
+    background-image: url(../img/Rectangle\ 8.png);
+    background-repeat: no-repeat;
     margin-left: auto;
     margin-right: auto;
-    background-repeat: no-repeat;
-    width: 1440px;
-    height: 704px;
-    flex-shrink: 0;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-
-
-
 }
 
 .dictionary-tile {
