@@ -437,3 +437,8 @@ img {
 
 
 }
+
+.footer>.container {
+    display: flex;
+
+}
