@@ -409,13 +409,31 @@ img {
     width: 1440px;
     height: 223px;
     flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
 
 
 
 }
 
 .footer-info>.item {
+
     color: #fff;
     text-align: justify;
     font-size: 20px;
+}
+
+.footer-foto {
+
+    background-repeat: no-repeat;
+    margin-right: auto;
+    width: 183px;
+    height: 70px;
+    flex-shrink: 0;
+
+
 }
