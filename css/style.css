@@ -51,9 +51,15 @@ img {
 .header {
     background-image: linear-gradient(rgba(43, 74, 97, 0.87),
             rgba(43, 74, 97, 0.87)), url(../img/Rectangle\ 104.png);
+
     position: fixed;
+    background-repeat: no-repeat;
+    width: 1440px;
+
     height: 150px;
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
     left: 0;
     right: 0;
     top: 0;
@@ -310,6 +316,12 @@ img {
 
 .dictionary {
     background-image: url(../img/Rectangle\ 20.png);
+    width: 1440px;
+    height: 704px;
+    background: url(../img/Rectangle\ 20.png), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -317,8 +329,8 @@ img {
 .dictionary-list {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 24px;
-    margin-left: 36px;
+    gap: 30px;
+    padding-top: 46px;
 }
 
 
@@ -339,26 +351,50 @@ img {
 
 .dictionary-tile {
     color: #141414;
-    text-align: justify;
+    text-align: center;
     font-family: "HeadlandOne", sans-serif;
     font-size: 32px;
+    /* margin-left: auto; */
+    padding-top: 58px;
+    /* margin-right: auto; */
+
 }
 
 
 
 .dictionary-item {
-    margin-top: -24px;
-    flex-basis: calc((100% - 72px) / 3);
-    margin-left: -36px;
+
+    flex-basis: calc((100% - 60px) / 3);
+
+    width: 320px;
+    height: 240px;
+    background-color: rgba(255, 255, 255, 0.70);
+
+
+
+
+
 
 }
 
 .dictionary-tex {
+
+
+
+
+
+
     color: #141414;
+    margin-left: auto;
+    margin-right: auto;
+    width: 285px;
+    height: 40px;
     text-align: justify;
-    font-family: "HeadlandOne", sans-serif;
-    font-size: 24px;
-    line-height: 24px;
+    font-family: HeadlandOne;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     /* 100% */
 }
 
