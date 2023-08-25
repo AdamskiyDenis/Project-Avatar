@@ -310,6 +310,15 @@ img {
 
 .dictionary {
     background-image: url(../img/Rectangle\ 20.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dictionary-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    margin-left: 36px;
 }
 
 
@@ -337,7 +346,12 @@ img {
 
 
 
-.dictionary-item {}
+.dictionary-item {
+    margin-top: -24px;
+    flex-basis: calc((100% - 72px) / 3);
+    margin-left: -36px;
+
+}
 
 .dictionary-tex {
     color: #141414;
