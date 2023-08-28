@@ -412,6 +412,7 @@ img {
     background-image: linear-gradient(rgba(43, 74, 97, 0.87),
             rgba(43, 74, 97, 0.87)), url(../img/Rectangle\ 104.png);
     width: 1440px;
+    position: relative;
     height: 223px;
     flex-shrink: 0;
     padding-top: 77px;
@@ -446,6 +447,10 @@ img {
 
 
 .futer-text {
+
+    right: 520px;
+    bottom: 10px;
+    position: absolute;
     color: #FFF;
     width: 348px;
     height: 17px;
