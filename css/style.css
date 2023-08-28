@@ -207,7 +207,8 @@ img {
 
 .foresight-title {
     color: #141414;
-    text-align: justify;
+    text-align: center;
+    padding-top: 75px;
     font-family: Inter;
     font-size: 36px;
     font-style: normal;
