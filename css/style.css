@@ -198,7 +198,8 @@ img {
 }
 
 
-.hero-button :hover .hero-button :focus {
+.hero-button:hover,
+.hero-button:focus {
     color: #0b0e66;
     background-color: #26C6EA;
     border: 3px solid #0a0ab0;
@@ -286,7 +287,8 @@ img {
 }
 
 
-.triiler-button :hover .triiler-button :focus {
+.triiler-button:hover,
+.triiler-button:focus {
     color: #0b0e66;
     background-color: #26C6EA;
     border: 3px solid #0a0ab0;
@@ -464,7 +466,8 @@ img {
 }
 
 
-.footer-email :hover .footer-email :focus {
+.footer-email:hover,
+.footer-email:focus {
     color: #26C7EA;
 }
 
