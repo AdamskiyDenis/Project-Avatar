@@ -1,5 +1,4 @@
 body {
-
     font-family: "Inter", sans-serif;
     line-height: normal;
     font-style: normal;
@@ -44,13 +43,13 @@ img {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-
 }
 
 /* Хедер */
 .header {
     background-image: linear-gradient(rgba(43, 74, 97, 0.87),
-            rgba(43, 74, 97, 0.87)), url(../img/Rectangle\ 104.png);
+            rgba(43, 74, 97, 0.87)),
+        url(../img/Rectangle\ 104.png);
 
     position: fixed;
     background-repeat: no-repeat;
@@ -65,17 +64,9 @@ img {
     top: 0;
     z-index: 50;
     border-bottom: 3px solid #fff;
-
-
-
 }
 
-
-
-
-
 .logo {
-
     background-image: url(../img/avatar-2-6235acaebf926\ 2.png);
     background-repeat: no-repeat;
     width: 186px;
@@ -84,11 +75,7 @@ img {
 
     padding-top: 39px;
     padding-bottom: 39px;
-
-
 }
-
-
 
 .nav {
     display: flex;
@@ -109,8 +96,6 @@ img {
     color: #94cfff;
 }
 
-
-
 .nav-menu {
     color: #fff;
     text-align: center;
@@ -125,7 +110,7 @@ img {
 
     padding: 9px 38px 7.6px;
 
-    color: #26C6EA;
+    color: #26c6ea;
     border-radius: 45px 0px;
 
     border: 3px solid #26c7ea;
@@ -137,7 +122,11 @@ img {
 }
 
 .header-button:hover,
-.header-button:focus {}
+.header-button:focus {
+    color: #0b0e66;
+    background-color: #26c6ea;
+    border: 3px solid #0a0ab0;
+}
 
 .list-leng {}
 
@@ -150,7 +139,7 @@ img {
 
 /* Герой */
 .hero {
-    background-image: url(../img/Group\ 48\ 1\ \(1\).jpg);
+    background-image: url(../img/Group\48\1\\(1\).jpg);
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -162,9 +151,6 @@ img {
     background-size: cover;
     background-position: center bottom -150px;
     object-fit: cover;
-
-
-
 }
 
 .hero-tex {
@@ -175,7 +161,6 @@ img {
     line-height: normal;
     width: 298px;
     height: 96px;
-
 }
 
 .hero-button {
@@ -184,17 +169,24 @@ img {
     height: 80px;
     padding: 10px 31px;
     border-radius: 45px 0px;
-    border: 3px solid #26C7EA;
+    border: 3px solid #26c7ea;
     background-color: #0b0e66;
     color: #26c7ea;
     text-align: center;
     font-family: "HeadlandOne", sans-serif;
     font-size: 24px;
+    cursor: pointer;
+}
+
+.hero-button :hover,
+.hero-button :focus {
+    color: #0b0e66;
+    background-color: #26c6ea;
+    border: 3px solid #0a0ab0;
 }
 
 /* Передбачення */
 .foresight {
-
     color: #0a3853;
 
     text-align: center;
@@ -203,7 +195,6 @@ img {
     color: #000;
     text-align: center;
     font-size: 24px;
-
 }
 
 .foresight-title {
@@ -224,8 +215,6 @@ img {
     font-size: 24px;
 }
 
-
-
 /* трейлер */
 
 .foto-trailler {
@@ -235,11 +224,7 @@ img {
     height: 120px;
     flex-shrink: 0;
     padding: 10px;
-
-
-
 }
-
 
 .triiler {
     margin-left: auto;
@@ -252,13 +237,11 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     /*  */
-
 }
 
-
 .trailer-foto {
-
     margin-left: auto;
     margin-right: auto;
 }
@@ -268,26 +251,23 @@ img {
     margin-right: auto;
     padding-top: 75px;
     width: 886px;
-
-
 }
 
-
-
-
-
-
-
-
+.triiler-button :hover,
+.triiler-button :focus {
+    color: #0b0e66;
+    background-color: #26c6ea;
+    border: 3px solid #0a0ab0;
+}
 
 .triiler-button {
     width: 260px;
     height: 80px;
     /* flex-shrink: 0; */
     border-radius: 45px 0px;
-    border: 3px solid #26C7EA;
-    background-color: #0B0E66;
-    color: #26C7EA;
+    border: 3px solid #26c7ea;
+    background-color: #0b0e66;
+    color: #26c7ea;
     text-align: center;
     font-family: "HeadlandOne", sans-serif;
     font-size: 24px;
@@ -295,35 +275,23 @@ img {
     font-weight: 400;
     line-height: normal;
     padding: 25px 20px;
-
-
-
-
 }
-
-
 
 .button-traile {
     color: #26c7ea;
     text-align: justify;
     font-family: "HeadlandOne", sans-serif;
     font-size: 24px;
-    color: #26C7EA;
+    color: #26c7ea;
     text-align: justify;
     font-family: HeadlandOne;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
-
 }
 
-
-
-
 /* Вчимо мову */
-
 
 .dictionary {
     background-image: url(../img/Rectangle\ 20.png);
@@ -343,13 +311,9 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-
 }
 
-
-
 .foto-dictionory {
-
     width: 400px;
     height: 120px;
     flex-shrink: 0;
@@ -360,7 +324,6 @@ img {
 }
 
 .foto-dictionory-two {
-
     background-repeat: no-repeat;
     margin-left: auto;
     margin-right: auto;
@@ -374,33 +337,17 @@ img {
     /* margin-left: auto; */
 
     /* margin-right: auto; */
-
 }
 
-
-
 .dictionary-item {
-
     flex-basis: calc((100% - 60px) / 3);
 
     padding-top: 36px;
     height: 240px;
-    background-color: rgba(255, 255, 255, 0.70);
-
-
-
-
-
-
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .dictionary-tex {
-
-
-
-
-
-
     color: #141414;
 
     width: 285px;
@@ -417,7 +364,8 @@ img {
 /* Футер */
 .footer {
     background-image: linear-gradient(rgba(43, 74, 97, 0.87),
-            rgba(43, 74, 97, 0.87)), url(../img/Rectangle\ 104.png);
+            rgba(43, 74, 97, 0.87)),
+        url(../img/Rectangle\ 104.png);
     width: 1440px;
     position: relative;
     height: 223px;
@@ -428,22 +376,21 @@ img {
     margin-right: auto;
     background-repeat: no-repeat;
     background-size: cover;
-
-
-
-
-
 }
 
 .footer-info>.item {
-
     color: #fff;
     text-align: justify;
     font-size: 20px;
 }
 
+.footer-email :hover,
+.footer-email :focus {
+    color: #26c7ea;
+}
+
 .footer-email {
-    color: #FFF;
+    color: #fff;
     text-align: justify;
     font-family: Inter;
     font-size: 20px;
@@ -452,13 +399,11 @@ img {
     line-height: normal;
 }
 
-
 .futer-text {
-
     right: 520px;
     bottom: 10px;
     position: absolute;
-    color: #FFF;
+    color: #fff;
     width: 348px;
     height: 17px;
     text-align: justify;
@@ -470,17 +415,13 @@ img {
 }
 
 .footer-foto {
-
     background-repeat: no-repeat;
     margin-right: auto;
     width: 183px;
     height: 70px;
     flex-shrink: 0;
-
-
 }
 
 .footer>.container {
     display: flex;
-
 }
