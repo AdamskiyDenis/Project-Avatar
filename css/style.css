@@ -47,10 +47,8 @@ img {
 
 /* Хедер */
 .header {
-  background-image: linear-gradient(
-      rgba(43, 74, 97, 0.87),
-      rgba(43, 74, 97, 0.87)
-    ),
+  background-image: linear-gradient(rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.87)),
     url(../img/Rectangle\ 104.png);
 
   position: fixed;
@@ -91,8 +89,7 @@ img {
   margin-top: 64px;
 }
 
-.menu-item {
-}
+.menu-item {}
 
 .link:hover,
 .link:focus {
@@ -131,8 +128,7 @@ img {
   border: 3px solid #0a0ab0;
 }
 
-.list-leng {
-}
+.list-leng {}
 
 .leng-item {
   color: #fff;
@@ -143,7 +139,7 @@ img {
 
 /* Герой */
 .hero {
-  background-image: url(../img/Group\48\1\\(1\).jpg);
+  background-image: url(../img/Group\ 48\ 1\ \(1\).jpg);
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -373,10 +369,8 @@ padding-right: 84px; */
 
 /* Футер */
 .footer {
-  background-image: linear-gradient(
-      rgba(43, 74, 97, 0.87),
-      rgba(43, 74, 97, 0.87)
-    ),
+  background-image: linear-gradient(rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.87)),
     url(../img/Rectangle\ 104.png);
   width: 1440px;
   position: relative;
@@ -390,7 +384,7 @@ padding-right: 84px; */
   background-size: cover;
 }
 
-.footer-info > .item {
+.footer-info>.item {
   color: #fff;
   text-align: justify;
   font-size: 20px;
@@ -434,6 +428,6 @@ padding-right: 84px; */
   flex-shrink: 0;
 }
 
-.footer > .container {
+.footer>.container {
   display: flex;
 }
