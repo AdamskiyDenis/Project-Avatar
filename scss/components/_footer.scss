@@ -1,0 +1,64 @@
+/* Футер */
+.footer {
+    background-image: linear-gradient(rgba(43, 74, 97, 0.87),
+            rgba(43, 74, 97, 0.87)),
+        url(../img/Rectangle\ 104.png);
+    width: 1440px;
+    position: relative;
+    height: 223px;
+    flex-shrink: 0;
+    padding-top: 77px;
+    padding-bottom: 76px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-info>.item {
+    color: #fff;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.footer-email:hover,
+.footer-email:focus {
+    color: #26c7ea;
+}
+
+.footer-email {
+    color: #fff;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.futer-text {
+    right: 520px;
+    bottom: 10px;
+    position: absolute;
+    color: #fff;
+    width: 348px;
+    height: 17px;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-foto {
+    background-repeat: no-repeat;
+    margin-right: auto;
+    width: 183px;
+    height: 70px;
+    flex-shrink: 0;
+}
+
+.footer>.container {
+    display: flex;
+}

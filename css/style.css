@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: "Inter", sans-serif;
   line-height: normal;
@@ -47,18 +48,13 @@ img {
 
 /* Хедер */
 .header {
-  background-image: linear-gradient(rgba(43, 74, 97, 0.87),
-      rgba(43, 74, 97, 0.87)),
-    url(../img/Rectangle\ 104.png);
-
+  background-image: linear-gradient(rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../img/Rectangle\ 104.png);
   position: fixed;
   background-repeat: no-repeat;
   width: 1440px;
-
   height: 150px;
   margin-left: auto;
   margin-right: auto;
-
   left: 0;
   right: 0;
   top: 0;
@@ -72,7 +68,6 @@ img {
   width: 186px;
   height: 72px;
   margin-top: 39px;
-
   padding-top: 39px;
   padding-bottom: 39px;
 }
@@ -88,8 +83,6 @@ img {
   gap: 38px;
   margin-top: 64px;
 }
-
-.menu-item {}
 
 .link:hover,
 .link:focus {
@@ -107,12 +100,9 @@ img {
   position: absolute;
   right: 50px;
   top: 50px;
-
   padding: 9px 38px 7.6px;
-
   color: #26c6ea;
   border-radius: 45px 0px;
-
   border: 3px solid #26c7ea;
   background: #0b0e66;
   text-align: justify;
@@ -127,8 +117,6 @@ img {
   background-color: #26c6ea;
   border: 3px solid #0a0ab0;
 }
-
-.list-leng {}
 
 .leng-item {
   color: #fff;
@@ -188,10 +176,8 @@ img {
 /* Передбачення */
 .foresight {
   color: #0a3853;
-
   text-align: center;
   font-size: 36px;
-
   color: #000;
   text-align: center;
   font-size: 24px;
@@ -210,13 +196,11 @@ img {
 
 .foresight-tex {
   color: #000;
-
   text-align: center;
   font-size: 24px;
 }
 
 /* трейлер */
-
 .foto-trailler {
   margin-left: auto;
   margin-right: auto;
@@ -290,14 +274,12 @@ img {
 }
 
 /* Вчимо мову */
-
 .dictionary {
   background-image: url(../img/Rectangle\ 20.png);
   width: 1440px;
   padding-top: 58px;
-
   height: 704px;
-  background: url(../img/Rectangle\ 20.png), lightgray 50% / cover no-repeat;
+  background: url(../img/Rectangle\ 20.png), lightgray 50%/cover no-repeat;
   flex-shrink: 0;
   margin-left: auto;
   margin-right: auto;
@@ -337,7 +319,7 @@ img {
 .dictionary-item {
   flex-basis: calc((100% - 60px) / 3);
   /* padding-right: 84px;
-padding-right: 84px; */
+  padding-right: 84px; */
   padding-top: 36px;
   padding-bottom: 36px;
   height: 240px;
@@ -346,7 +328,6 @@ padding-right: 84px; */
 
 .dictionary-tex {
   color: #141414;
-
   width: 285px;
   height: 40px;
   text-align: center;
@@ -369,9 +350,7 @@ padding-right: 84px; */
 
 /* Футер */
 .footer {
-  background-image: linear-gradient(rgba(43, 74, 97, 0.87),
-      rgba(43, 74, 97, 0.87)),
-    url(../img/Rectangle\ 104.png);
+  background-image: linear-gradient(rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../img/Rectangle\ 104.png);
   width: 1440px;
   position: relative;
   height: 223px;
@@ -384,7 +363,7 @@ padding-right: 84px; */
   background-size: cover;
 }
 
-.footer-info>.item {
+.footer-info > .item {
   color: #fff;
   text-align: justify;
   font-size: 20px;
@@ -428,6 +407,54 @@ padding-right: 84px; */
   flex-shrink: 0;
 }
 
-.footer>.container {
+.footer > .container {
   display: flex;
 }
+
+/* modal */
+body.show-modal .backdrop {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: initial;
+}
+
+body.show-modal .modal {
+  transform: scale(1);
+}
+
+.backdrop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 200ms ease-in-out, visibility 200ms ease-in-out;
+}
+
+.modal {
+  padding: 40px;
+  border-radius: 4px;
+  max-width: 600px;
+  width: 100%;
+  min-height: 404px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  transform: scale(1.1);
+  transition: transform 200ms ease-in-out;
+}
+
+.modal-btn {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  fill: #0B0E66;
+}/*# sourceMappingURL=style.css.map */

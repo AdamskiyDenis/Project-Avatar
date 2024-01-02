@@ -1,0 +1,91 @@
+/* Хедер */
+.header {
+    background-image: linear-gradient(rgba(43, 74, 97, 0.87),
+            rgba(43, 74, 97, 0.87)),
+        url(../img/Rectangle\ 104.png);
+
+    position: fixed;
+    background-repeat: no-repeat;
+    width: 1440px;
+
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 50;
+    border-bottom: 3px solid #fff;
+}
+
+.logo {
+    background-image: url(../img/avatar-2-6235acaebf926\ 2.png);
+    background-repeat: no-repeat;
+    width: 186px;
+    height: 72px;
+    margin-top: 39px;
+
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+
+.nav {
+    display: flex;
+    position: relative;
+}
+
+.menu {
+    margin-left: 186px;
+    display: flex;
+    gap: 38px;
+    margin-top: 64px;
+}
+
+.menu-item {}
+
+.link:hover,
+.link:focus {
+    color: #94cfff;
+}
+
+.nav-menu {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.header-button {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+
+    padding: 9px 38px 7.6px;
+
+    color: #26c6ea;
+    border-radius: 45px 0px;
+
+    border: 3px solid #26c7ea;
+    background: #0b0e66;
+    text-align: justify;
+    font-family: "HeadlandOne", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header-button:hover,
+.header-button:focus {
+    color: #0b0e66;
+    background-color: #26c6ea;
+    border: 3px solid #0a0ab0;
+}
+
+.list-leng {}
+
+.leng-item {
+    color: #fff;
+    text-align: center;
+    font-family: "Hammersmith One", sans-serif;
+    font-size: 16px;
+}

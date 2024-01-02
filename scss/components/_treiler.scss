@@ -1,0 +1,73 @@
+/* трейлер */
+
+.foto-trailler {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 120px;
+    flex-shrink: 0;
+    padding: 10px;
+}
+
+.triiler {
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-image: url(../img/Rectangle\ 10.png);
+    width: 1440px;
+    height: 741px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /*  */
+}
+
+.trailer-foto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foresight-title-two {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 75px;
+    width: 886px;
+}
+
+.triiler-button:hover,
+.triiler-button:focus {
+    color: #0b0e66;
+    background-color: #26c6ea;
+    border: 3px solid #0a0ab0;
+}
+
+.triiler-button {
+    width: 260px;
+    height: 80px;
+    border-radius: 45px 0px;
+    border: 3px solid #26c7ea;
+    background-color: #0b0e66;
+    color: #26c7ea;
+    text-align: center;
+    font-family: "HeadlandOne", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 25px 20px;
+}
+
+.button-traile {
+    color: #26c7ea;
+    text-align: justify;
+    font-family: "HeadlandOne", sans-serif;
+    font-size: 24px;
+    color: #26c7ea;
+    text-align: justify;
+    font-family: HeadlandOne;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
